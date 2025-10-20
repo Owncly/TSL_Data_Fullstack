@@ -7,3 +7,7 @@ WebAPP C#. an event simulator to make this data that passes every couple of seco
 Using CORS to communicate between the two
 ## Frontend
 React - Vite with embla libs and SignalR service to pass through. External CSS files for now, could use Tailwind after
+
+
+### Other fixes
+Data coming in for matches is 1-4, similarly, generation is hardcoded for 4x courts, this should not be static either passed from something else or generated as each new id is loaded
