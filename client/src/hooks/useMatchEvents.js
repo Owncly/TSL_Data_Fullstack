@@ -54,7 +54,7 @@ export default function useMatchEvents() {
         return prev;
       });
     };
-    //using signal client
+
     const connection = createMatchHubConnection(handleGameGetEvent);
     connectionRef.current = connection;
 
