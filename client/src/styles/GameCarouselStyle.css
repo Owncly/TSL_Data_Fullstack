@@ -1,0 +1,15 @@
+.carousel-container {
+  width: 100%;
+  max-width: 800px;
+  overflow: hidden;
+}
+
+.carousel-track {
+  display: flex;
+  transition: transform 0.3s ease;
+}
+
+.carousel-slide {
+  flex: 0 0 100%;
+  padding: 1rem;
+}
